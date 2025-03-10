@@ -1,14 +1,16 @@
 
 import './App.css';
-import ClassComponent from './view/ClassComponent';
-import Functional from './view/Functional';
+// import ClassComponent from './view/ClassComponent';
+// import Functional from './view/Functional';
+import ParentFn from './view/ParentFn';
+import ChildFn from './view/ChildFn';
+import Parent from './view/Parent';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Welcome to React-Tutorial</h1>
-     <ClassComponent/>
-     <Functional/>
+    <div >
+     <ParentFn/>
+     <Parent/>
     </div>
   );
 }

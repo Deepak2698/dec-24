@@ -1,0 +1,21 @@
+
+/********* Architecture of Virtual DOM or Component Setup ********/
+
+Public -> index.html => Main HTML web page having id='root'
+
+src -> Source project or development based folder
+
+        -> index.js => Root Component (We are creating a js or jsx based arch. for rendering components)
+
+        index.js ->> App.js(Parent Component) 
+
+                                        App.js
+                                           |
+                --------------------------------------------------------
+                |                          |                           |
+            Parent.jsx                 Parent2.jsx             Parent1.jsx
+                |                                                      |
+            Child.jsx                                           Child1.jsx
+                |
+            Navbar.jsx
+
