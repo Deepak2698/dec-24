@@ -19,3 +19,26 @@ src -> Source project or development based folder
                 |
             Navbar.jsx
 
+
+Inheritance in OOPs
+
+    -> Inheriting properties of the Parent(Class,Function,Components)
+
+class MyClass{
+
+    //Data Members
+        let num = 10;
+
+    //Method Functions
+        sum(){
+            console.log(num);
+        }
+}
+
+let obj = new MyClass();
+    obj.sum();
+
+
+class ChildClass extends MyClass{
+
+}

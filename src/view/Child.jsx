@@ -7,7 +7,7 @@ class Child extends Component{
         return(
             <div>
                 <h1>
-                    We are Learning passing props in class component
+                    {this.props.student} is Learning : {this.props.dataFromParent}
                 </h1>
             </div>
         )

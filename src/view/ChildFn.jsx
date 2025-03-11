@@ -2,11 +2,11 @@
 
 import React from "react";
 
-function ChildFn(){
+function ChildFn(props){
     return(
         <div>
             <h2> 
-                We are Learning passing props in functional Component
+                {props.student} is Learning : {props.dataFromParent}
             </h2>
         </div>
     )
