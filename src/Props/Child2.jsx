@@ -1,15 +1,16 @@
+
 import React, { Component } from "react";
 
-class ClassComponent extends Component{
+class Child2 extends Component{
     render(){
         return(
             <div>
                 <h2>
-                    Hello Everyone
+                    Welcome from Child2
                 </h2>
             </div>
         )
     }
 }
 
-export default ClassComponent;
+export default Child2;

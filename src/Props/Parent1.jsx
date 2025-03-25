@@ -1,17 +1,17 @@
 
-
 import React, { Component } from "react";
+import Child1 from "./Child1";
 
-class Child extends Component{
+class Parent1 extends Component{
     render(){
         return(
             <div>
                 <h1>
-                    {this.props.student} is Learning : {this.props.dataFromParent}
+                    Hello from Parent1
                 </h1>
+                <Child1/>
             </div>
         )
     }
 }
-
-export default Child;
+export default Parent1;

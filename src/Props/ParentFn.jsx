@@ -5,7 +5,7 @@ import ChildFn from "./ChildFn";
 function ParentFn(){
     return(
         <div>
-           <ChildFn dataFromParent = 'passing props in functional Component' student = 'Vedang'/>
+           <ChildFn dataFromParent = 'passing props' name = 'Anuja'/>
         </div>
     )
 }
