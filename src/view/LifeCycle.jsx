@@ -12,9 +12,9 @@ class Lifecycle extends React.Component {        //Lifecycle Component
       return {instrument: props.temp}            //system defined lifecycle hook
    }*/
 
-   /*shouldComponentUpdate(){
-    return false;
-   }*/
+   shouldComponentUpdate(){
+    return true;
+   }
 
    getSnapshotBeforeUpdate(prevProps,prevState){
       console.log('Before update : ' +  prevState.instrument);

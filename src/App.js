@@ -12,13 +12,16 @@ import Parent from './Props/Parent';
 import ParentFn from './Props/ParentFn';
 import Lifecycle from './view/LifeCycle';
 import TextState from './view/TextState';
+import Header from './MusicComponents/Header';
+import Products from './MusicComponents/Products';
 
 
 function App() {
   return (
     <div >
-     <Lifecycle/>
-     <TextState/>
+     <Header/>
+     <Products/>
+     
     </div>
   );
 }
