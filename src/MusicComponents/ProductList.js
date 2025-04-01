@@ -21,7 +21,7 @@ const ProductList = (prodlist) => {         //functional component that accepts 
                             <span className="max">Rs. {data.price}</span>  
                                 <h4 className="card-title">{data.type}</h4>
                                 <div className="card-text">
-                                    <p className="day">Rs. {data.price}</p>
+                                    <p className="day">{data.description}</p>
                                 </div>
                         </div>
                     </div>

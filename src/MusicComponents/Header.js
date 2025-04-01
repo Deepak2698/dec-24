@@ -18,7 +18,7 @@ class Header extends Component{
                     <h1> Music Store</h1>
                     <center>
                         <input placeholder="Product to Search"
-                        onChange={this.inputChange}/>  {/*  */}
+                        onChange={(event) => {this.inputChange(event)}}/>  {/*  */}
                     </center>
                     <p>{this.state.userInput}</p>    {/* Displays data from the prop  */}
                 </center>
