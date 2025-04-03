@@ -1,0 +1,27 @@
+
+Why we need React.js ?
+
+- Every time a user clicks on the url a new request gets send to the browser and a new html (dom) gets loaded.
+- But, when we use react the html file is loaded only once
+- After that the components are getting changed.
+
+* When the components are getting changed we need some link
+
+-Routing
+
+M - Models (data/database)
+V - View    (Routes/FE)
+C - Controllers (backend)
+
+
+FE ------> BE  ------> DB -> Promise {resolved,rejected and pending}
+
+Components are jsx
+
+<Router>
+    <Routes>
+        <Route path = '' element = {<jsx-component>}
+        <Route path = '' element = {<jsx-component>}
+        <Route path = '' element = {<jsx-component>}
+    <Routes/>
+<Router/>

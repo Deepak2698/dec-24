@@ -1,5 +1,6 @@
 
 import './App.css';
+import Routing from './Naviigation/Routing';
 // import ClassComponent from './view/ClassComponent';
 // import Functional from './view/Functional';
 
@@ -14,13 +15,13 @@ import './App.css';
 // import TextState from './view/TextState';
 // import Header from './MusicComponents/Header';
 // import Products from './MusicComponents/Products';
-import Forms from './view/Forms';
+// import Forms from './view/Forms';
 
 
 function App() {
   return (
     <div >
-     <Forms/>
+     <Routing/>
      
     </div>
   );
