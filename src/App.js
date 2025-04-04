@@ -1,5 +1,7 @@
 
 import './App.css';
+import States from './Hooks/States';
+import States1 from './Hooks/States1';
 import Routing from './Naviigation/Routing';
 // import ClassComponent from './view/ClassComponent';
 // import Functional from './view/Functional';
@@ -21,7 +23,7 @@ import Routing from './Naviigation/Routing';
 function App() {
   return (
     <div >
-     <Routing/>
+     <States1/>
      
     </div>
   );
