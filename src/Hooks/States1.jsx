@@ -6,7 +6,7 @@ export default function States1(){
     // const [state, setState] = useState(initialState)
 
     const [count, setCount] = useState(0);
-    const [name,setName] = useState('Vaibhav')
+    const [name,setName] = useState('Vaibhav');
 
     return(
         <div>

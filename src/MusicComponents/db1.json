@@ -5,8 +5,7 @@
         "price":44500,
         "type":"manual",
         "description":"This is a larger baby-grand piano with fuller sound due to its bigger size and longer strings",
-        "img":"https://i.ibb.co/wc6qzwW/piano.png",
-        "rating":5
+        "img":"https://i.ibb.co/wc6qzwW/piano.png"
     },
     {
         "id":2,
